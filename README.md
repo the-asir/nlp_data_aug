@@ -13,7 +13,7 @@ Experiments with NLP Data Augmentation
 
 ## Tasks
 - Use data augmentation techniques in succession on IMDB classification task to report performance
-- Make use of baseline translation model for "back translation" task
+- Make use of baseline translation model from [OpenNMT](http://opennmt.net/Models-py/) for "back translation" task
 
 ## Misc
 - [Blog post](http://blog.aylien.com/research-directions-at-aylien-in-nlp-and-transfer-learning/#taskindependentdataaugmentationfornlp) on research directions for data augmentation in NLP
