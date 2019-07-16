@@ -11,7 +11,7 @@ Experiments with NLP Data Augmentation
 
 ## Issues with the codebase
 - ~~Cuda dropout non-deterministic?? (more from Mike)~~ Most of cuDNN nondeterministic issues are almost implicitly solved with fastai
-  * For dropout, a deterministic usage is like what is done [fastai-1.0.55: awd_lstm.py#L105](https://github.com/fastai/fastai/blob/release-1.0.55/fastai/text/models/awd_lstm.py#L105). A non-determinstic way is to apply `torch.nn.LSTM(..., dropout=dropout_prob_here,...)` directly, although it is much faster.
+  * For dropout, a deterministic usage is like what is done at [fastai-1.0.55: awd_lstm.py#L105](https://github.com/fastai/fastai/blob/release-1.0.55/fastai/text/models/awd_lstm.py#L105). A non-determinstic way is to apply `torch.nn.LSTM(..., dropout=dropout_prob_here,...)` directly, although it is much faster.
   * Other cuDNN/PyTorch reproducibility issues are addressed in [#1-control_random_factors/imdb.ipynb](anz9990/nlp_data_aug/blob/%231-control_random_factors/imdb.ipynb). They require explicit measures, as https://docs.fast.ai/dev/test.html#getting-reproducible-results briefly described.
 
 ## Tasks
