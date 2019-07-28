@@ -20,3 +20,4 @@ Experiments with NLP Data Augmentation
 
 ## Misc
 - [Blog post](http://blog.aylien.com/research-directions-at-aylien-in-nlp-and-transfer-learning/#taskindependentdataaugmentationfornlp) on research directions for data augmentation in NLP
+- For visual diff between Jupyter notebooks, try https://app.reviewnb.com
